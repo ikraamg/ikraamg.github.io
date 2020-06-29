@@ -230,7 +230,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.jpg") 70% 50%;
   background-size: cover;
 }
 
@@ -1119,7 +1119,7 @@ section {
 #footer {
   padding: 15px;
   color: #f4f6fd;
-  font-size: 14px;
+  font-size: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -1128,18 +1128,18 @@ section {
   background: #040b14;
 }
 
-#footer .copyright {
-  text-align: center;
-}
-
-#footer .copyright #footer .credits {
+#footer .credits {
   padding-top: 5px;
   text-align: center;
   color: #eaebf0;
 }
 
+#footer .copyright {
+  text-align: center;
+}
+
 @media (max-width: 1199px) {
-  #footer .copyright #footer {
+  #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
