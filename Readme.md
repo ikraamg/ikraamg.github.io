@@ -2,11 +2,11 @@
 
 # Ikraam Ghoor Portfolio
 
-- This site is a community-driven short-story sharing site that allows users to write and upvote their favourite stories.
+- This site is a demonstration of my resume and porfolio.
 
-## Live Demo and Presentation
+## Live Demo
 
-- The project was deployed on Heroku: [Live Demo Link](https://ikraamghoor.com)
+- My portfolio can be found at [ikraamghoor.com](https://ikraamghoor.com).
 
 ## Built With
 
@@ -29,8 +29,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [https://bootstrapmade.com/](https://bootstrapmade.com/) for the template.
+[BootstrapMade](https://bootstrapmade.com/) for the template.
 
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed with the exception of the design, which is under the [Creative Commons License](https://creativecommons.org/licenses/by-nc-nd/4.0/) and attributed to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
+This project is under the [BootstrapMade License](https://bootstrapmade.com/license/).
