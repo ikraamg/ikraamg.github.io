@@ -295,7 +295,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .section-title h2 {
@@ -1089,7 +1089,7 @@ section {
   text-align: center;
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 10px) {
   #footer {
     position: static;
     width: auto;
