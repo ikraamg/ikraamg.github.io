@@ -230,7 +230,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") 70% 50%;
+  background: url("../img/hero-bg.jpg") 50% 50%;
   background-size: cover;
 }
 
@@ -952,6 +952,10 @@ section {
 
 .contact .php-email-form button[type='submit']:hover {
   background: #37b3ed;
+}
+
+.big-icon {
+  font-size: 2.5rem;
 }
 
 @-webkit-keyframes animate-loading {
