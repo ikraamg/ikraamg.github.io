@@ -170,62 +170,71 @@
             <br />
             <p>
               My current software forte is full-stack Ruby on Rails development,
-              which is soon to be coupled with JavaScript and React.
+              which is soon to be coupled with JavaScript and React
             </p>
             <br />
+            <div id="more" style="display: none;">
+              <p>
+                My motivation lies in <strong>creating value</strong> which
+                revolves around my core-beliefs of:
+              </p>
+
+              <ul>
+                <li>
+                  Consistent Growth - This starts with being open to learning
+                  from any source or person.
+                </li>
+                <li>
+                  Embracing Challenges - We can best learn by accepting things
+                  as they are and then working from there.
+                </li>
+                <li>
+                  Freedom - Giving myself and others the space to be; with
+                  respect, tolerance and understanding.
+                </li>
+              </ul>
+
+              <p>The following are some of my defining traits:</p>
+              <ul>
+                <li>
+                  Sharing new pieces of information or experiences that I find
+                  profound excites me, which have lead to the enjoyment of
+                  teaching/facilitating classes as well as writing about my
+                  learnings.
+                </li>
+                <li>
+                  I connect best with others over an activity, whether that is a
+                  road-trip or braai-ing (barbeques); in any space that allows
+                  for one-on-one conversations.
+                </li>
+                <li>
+                  Creating space in my day is essential as it creates an
+                  opportunity to reflect, explore new ideas and improve all
+                  areas of my life.
+                </li>
+                <li>
+                  I have a strong drive to be independent and much of my
+                  motivation to work today comes from the idea that I am
+                  creating long term value, of which the returns are space,
+                  freedom and choice.
+                </li>
+                <li>
+                  I love multi-day hikes; my yearly adventure is always the
+                  highlight (this is where the hero-image above stems from).
+                </li>
+              </ul>
+            </div>
+            <div>
+              <button href="#About" onclick="aboutMore()" id="morea">
+                Read more
+              </button>
+            </div>
+            <br />
             <p>
-              My motivation lies in <strong>creating value</strong> which
-              revolves around my core-beliefs of:
-            </p>
-
-            <ul>
-              <li>
-                Consistent Growth - This starts with being open to learning from
-                any source or person.
-              </li>
-              <li>
-                Embracing Challenges - We can best learn by accepting things as
-                they are and then working from there.
-              </li>
-              <li>
-                Freedom - Giving myself and others the space to be; with
-                respect, tolerance and understanding.
-              </li>
-            </ul>
-
-            <p>The following are some of my defining traits:</p>
-            <ul>
-              <li>
-                Sharing new pieces of information or experiences that I find
-                profound excites me, which have lead to the enjoyment of
-                teaching/facilitating classes as well as writing about my
-                learnings.
-              </li>
-              <li>
-                I connect best with others over an activity, whether that is a
-                road-trip or braai-ing (barbeques); in any space that allows for
-                one-on-one conversations.
-              </li>
-              <li>
-                Creating space in my day is essential as it creates an
-                opportunity to reflect, explore new ideas and improve all areas
-                of my life.
-              </li>
-              <li>
-                I have a strong drive to be independent and much of my
-                motivation to work today comes from the idea that I am creating
-                long term value, of which the returns are space, freedom and
-                choice.
-              </li>
-              <li>
-                I love multi-day hikes; my yearly adventure is always the
-                highlight (this is where the hero-image above stems from).
-              </li>
-            </ul>
-
-            <p>
-              If you believe I will be a great fit for your team (and project)
-              please <a href="#contact"> contact me</a>.
+              If you believe I will be a great fit for your team (and project),
+              please
+              <a href="#contact" id="cbut">reach out,</a> and I will get back to
+              you in a flash.
             </p>
           </div>
 
@@ -379,7 +388,9 @@
                   <a href="https://github.com/ikraamg/gratitude-buddy-bot"
                     ><i class="bx bxl-github"></i
                   ></a>
-                  <a href="https://t.me/gratitude_buddy_bot" title="More Details"
+                  <a
+                    href="https://t.me/gratitude_buddy_bot"
+                    title="More Details"
                     ><i class="bx bx-link-external"></i
                   ></a>
                 </div>
@@ -1234,6 +1245,20 @@
             .addClass('externalLink');
         });
       });
+    </script>
+    <script>
+      function aboutMore() {
+        var moreText = document.getElementById('more');
+        var btnText = document.getElementById('morea');
+
+        if (moreText.style.display === 'none') {
+          btnText.textContent = 'Read less';
+          moreText.style.display = 'block';
+        } else {
+          btnText.textContent = 'Read more';
+          moreText.style.display = 'none';
+        }
+      }
     </script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
