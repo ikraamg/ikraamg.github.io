@@ -373,6 +373,32 @@ section {
   padding-bottom: 10px;
 }
 
+.skill-list .cbut {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.skill-list .front {
+  background-color: #9b710a;
+}
+
+.skill-list .back {
+  background-color: firebrick;
+}
+
+.skill-list .tools {
+  background-color: #35972d;
+}
+
+.skill-list .part {
+  background-color: purple;
+}
+
+.skill-list .electronics {
+  background-color: yellowgreen;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -523,9 +549,14 @@ section {
 
 .down-resum {
   color: white;
+  background: #122f57;
   margin-top: 20px;
   font-size: 1.3rem;
   padding: 10px 15%;
+}
+
+.down-resum:hover {
+  background: #149ddd;
 }
 
 /*--------------------------------------------------------------

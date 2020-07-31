@@ -359,6 +359,31 @@ section {
 
 .skill-list {
   padding-bottom: 10px;
+
+  .cbut {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .front {
+    background-color: rgb(155, 113, 10);
+  }
+
+  .back {
+    background-color: firebrick;
+  }
+
+  .tools {
+    background-color: rgb(53, 151, 45);
+  }
+
+  .part {
+    background-color: purple;
+  }
+
+  .electronics {
+    background-color: yellowgreen;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -508,7 +533,11 @@ section {
 }
 
 .down-resum {
+  &:hover {
+    background: #149ddd;
+  }
   color: white;
+  background: #122f57;
   margin-top: 20px;
   font-size: 1.3rem;
   padding: 10px 15%;
