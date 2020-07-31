@@ -345,12 +345,20 @@ section {
 }
 
 .about #morea,
-#cbut {
+.cbut {
   background: #149ddd;
   border: 0;
   padding: 2px 5px;
   color: white;
   border-radius: 4px;
+  &:hover {
+    background: #122f57;
+    color: white;
+  }
+}
+
+.skill-list {
+  padding-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -497,6 +505,13 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+.down-resum {
+  color: white;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  padding: 10px 15%;
 }
 
 /*--------------------------------------------------------------
